@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>V-for</title>
+    <style>
+        .active {
+            background: deepskyblue;
+        }
+    </style>
+</head>
+<body>
+<h2>V-bind指令</h2>
+<div id="app">
+    <div>
+        <a v-bind:href="url">点我</a>
+    </div>
+    <div>
+        <img :src="img" alt="pic">
+    </div>
+    <button :class="{active: isActive, 'btn': primary}">这是一个按钮</button>
+
+</div>
+<script src="../lib/vue.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

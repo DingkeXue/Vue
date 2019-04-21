@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>V-on</title>
+    <style>
+        div {
+            margin: 20px auto;
+            padding: 10px;
+            border: 1px solid rgba(0, 0, 0, .2);
+        }
+    </style>
+</head>
+<body>
+<h2>V-on指令</h2>
+<div id="app" @scroll.passive="scroll">
+    <div >
+        <button @click="greet">点我</button>
+        <button @click="say('hi', $event)">say hi</button>
+    </div>
+    <div @click="alert3">
+        <h3>未使用 stop 修饰符</h3>
+        <ul @click="alert2">
+            <li @click="alert1">我是最里面的li</li>
+        </ul>
+    </div>
+    <div @click="alert3">
+        <h3>使用 stop 修饰符</h3>
+        <ul @click="alert2">
+            <li @click.stop="alert1">我是最里面的li</li>
+        </ul>
+    </div>
+    <div>
+        <h3>使用 prevent 修饰符</h3>
+        <form>
+            <input type="text">
+            <button @click.prevent="onSubmit">提交</button>
+        </form>
+    </div>
+    <div @click.capture="alert3">
+        <h3>使用 capture 修饰符</h3>
+        <ul @click="alert2">
+            <li @click.stop="alert1">我是最里面的li</li>
+        </ul>
+    </div>
+    <div>
+        <h3>keyup.enter 事件</h3>
+        <input type="text" @keyup.enter="onSubmit">
+    </div>
+    <div>
+        <h3 @click.left="onLeft">点击鼠标左键</h3>
+    </div>
+    <div>
+        <h3 @click.right="onRight">点击鼠标右键</h3>
+    </div>
+    <div>
+        <h3 @click.middle="onMiddle">点击鼠标中键</h3>
+    </div>
+    <div @scroll.passive="scroll">
+        <h3>passive 修饰符</h3>
+    </div>
+</div>
+<script src="../lib/vue.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
