@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../lib/css/base.css">
+    <title>插槽</title>
+    <style>
+        .wrapper {
+            width: 500px;
+            margin: 50px auto;
+            border: 1px solid rgba(0,0,0,.3);
+            text-align: center;
+        }
+        .content,
+        .header {
+            margin: 50px 0;
+            padding: 0 20px 20px 20px;
+            border-bottom: 1px solid gray;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <panel></panel>
+    <panel>
+        <div slot="header">
+            这里是首部
+        </div>
+        <div slot="content">
+            <p>
+                052D型驱逐舰是中国人民解放军海军装备的一型导弹驱逐舰，为052C型驱逐舰的最新改良型，也是中国继052C型驱逐舰后又一种配备相控阵雷达与垂直发射区域防空导弹系统的现代化防空驱逐舰
+            </p>
+        </div>
+        <div slot="footer">
+            <p>这里是slot底部</p>
+        </div>
+    </panel>
+    <panel>
+        <div slot="content">
+            <p>
+                至于055万吨大驱是否亮相，军事专家近日在接受人民网采访时表示， 055若参加此次纪念活动，将是一次崭新的亮相，同时也是向世界展示中国大型驱逐舰的发展规模和强大实力，很可能成为此次活动中最受国内外关注的焦点之一
+            </p>
+        </div>
+    </panel>
+    <panel></panel>
+</div>
+<template id="panel-tpl">
+    <div  class="wrapper">
+        <div class="header">
+            <slot name="header">首部</slot>
+        </div>
+        <div class="content">
+            <slot name="content">
+                <p>
+                    052C驱逐舰是世界上第一种安装四面大型主动相控阵雷达的舰艇，堪称21世纪初期中国造舰事业的最高成就。它配备解放军海军前所未见的相控阵系统以及垂直发射(VLS)防空导弹系统，是中国造舰的一大突破，故获得了“中华神盾”的美称。
+                </p>
+            </slot>
+        </div>
+        <div class="footer">
+            <slot name="footer">
+                <p>footer</p>
+            </slot>
+        </div>
+    </div>
+</template>
+<script src="../lib/js/vue.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
