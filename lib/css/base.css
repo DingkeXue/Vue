@@ -5,3 +5,12 @@ div {
 .active {
     background: deepskyblue;
 }
+
+input {
+    padding: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
