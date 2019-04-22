@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../lib/css/base.css">
+    <title>组件</title>
+</head>
+<body>
+<div id="app">
+    <click-demo></click-demo>
+</div>
+<div id="seg1">
+    <alert></alert>
+    <click-demo></click-demo>
+</div>
+<div id="seg2">
+    <like-demo></like-demo>
+</div>
+<!--父子间通信 props-->
+<div id="seg3">
+    <alert username="zff" msg="弹完了"></alert>
+</div>
+
+<!--子父间通信-->
+<div id="seg4">
+    <show-balance></show-balance>
+</div>
+
+<!--兄弟间通信-->
+<div id="seg5">
+    <lbb-say></lbb-say>
+    <repeat></repeat>
+</div>
+<!--模板-->
+<template id="like-tpl">
+    <button :class='{active: liked}' @click="add">赞{{like_count}}</button>
+</template>
+<template id="alert-tpl">
+    <div>
+        <button @click="Alert">弹一弹</button><br>
+        <a :href="'/user/' + username">@{{username}}</a>
+    </div>
+</template>
+<script src="../lib/js/vue.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
