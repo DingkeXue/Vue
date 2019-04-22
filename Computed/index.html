@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>计算属性</title>
+    <style>
+        div {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <div>
+        <h3>计算属性</h3>
+        <input v-model.num="num1" type="number"> +
+        <input v-model.num="num2" type="number"> =
+        <span>{{sum}}</span>
+    </div>
+    <div>
+        <h3>计算方法</h3>
+        <input v-model.num="num3" type="number"> +
+        <input v-model.num="num4" type="number"> =
+        <span>{{add()}}</span>
+    </div>
+    <div>
+        <textarea v-model="text" id="" cols="30" rows="10" placeholder="请输入文字"></textarea>
+        <p>翻转后的文字为：{{reverse}}</p>
+    </div>
+</div>
+<script src="../lib/vue.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
