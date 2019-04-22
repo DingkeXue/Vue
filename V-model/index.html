@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>v-bind</title>
+    <style>
+        div {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h2>v-bind 练习</h2>
+</div>
+<div id="app">
+    <div>
+        <label>
+            男
+            <input type="radio" v-model="gender" value="male">
+        </label>
+        <label>
+            女
+            <input type="radio" v-model="gender" value="female">
+        </label>
+    </div>
+    <div>
+        <h3>无 lazy 修饰符</h3>
+        <textarea v-model="text"></textarea>
+        <p>您输入的文字是： {{text}}</p>
+    </div>
+    <div>
+        <h3>lazy 修饰符</h3>
+        <textarea v-model.lazy="message"></textarea>
+        <p>您输入的文字是： {{message}}</p>
+    </div>
+    <div>
+        <p>地址：</p>
+        <select v-model="selected">
+            <option value="" disabled>请选择</option>
+            <option value="1">北京</option>
+            <option value="2">上海</option>
+            <option value="3">杭州</option>
+        </select>
+        <p>您已选择： {{selected}}</p>
+    </div>
+    <div>
+        <select v-model="select">
+            <option v-for="option in options" :value="option.value">
+                {{option.text}}
+            </option>
+        </select>
+        <p>您已选择： {{select}}</p>
+    </div>
+    <div>
+        <h3>num 修饰符</h3>
+        <input type="number" v-model.number="num">
+        <p>您输入的数字为：{{num}}</p>
+    </div>
+    <div>
+        <h3>trim 修饰符</h3>
+        <input type="text" v-model="name">
+        <pre>原始输入：{{name}}</pre>
+        <p>去掉空格后： {{name}}</p>
+    </div>
+</div>
+<script src="../lib/vue.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
