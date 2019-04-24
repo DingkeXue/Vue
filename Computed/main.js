@@ -6,18 +6,33 @@ let app = new Vue({
        num3: null,
        num4: null,
        text: '',
+       a: 0,
+       b: 0,
    },
     computed: {
-       sum: function () {
-           return parseFloat(this.num1) + parseFloat(this.num2) || 0;
-       },
+        addA: function() {
+          console.log('add to A');
+          return this.a + 100;
+          
+        },
+        addB: function() {
+          console.log('add to B');
+          return this.b + 100;
+        },
+       
         reverse: function () {
             return this.text.split('').reverse().join('');
         }
     },
     methods: {
-       add: function () {
-           return parseFloat(this.num3) + parseFloat(this.num4) || 0;
-       }
+       adda: function() {
+          console.log('add to a');
+          return this.a + 100;
+          
+        },
+        addb: function() {
+          console.log('add to b');
+          return this.b + 100;
+        },
     }
 });

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Demo1</title>
+	<link rel="stylesheet" href="https://cdn.bootcss.com/twitter-bootstrap/3.0.1/css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div id="app">
+		<div id="smile" :class="{Smile: full}"></div>
+		<div id="smile-health">
+			<div id="length" :style="{width: health + '%'}"></div>
+		</div>
+		<div id="control">
+			<button @click='add()' class="btn btn-primary">赞我</button>
+			<button @click='restart()' class="btn btn-danger">重来</button>
+		</div>
+	</div>
+	<script src="../lib/js/vue.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

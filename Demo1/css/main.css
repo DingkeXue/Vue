@@ -1,0 +1,32 @@
+#smile {
+	width: 200px;
+	margin: 20px auto;
+	height: 200px;
+	background: url(../img/frown-fill.png) center no-repeat;
+	background-image: 80%;
+}
+
+#smile-health {
+	width: 200px;
+	margin: 20px auto;
+	border: 1px solid rgba(0, 0, 0, .4);
+}
+
+#smile.Smile {
+	background-image: url(../img/smile-fill.png); 
+}
+
+#length {
+	background: #f44336;
+	height: 20px;
+}
+
+#control {
+	width: 200px;
+	height: 20px;
+	margin: 40px auto;
+}
+
+.btn {
+	width: 48%;
+}

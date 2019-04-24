@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01a5fa3b-0ef2-4a1c-aca2-8e8d52eb0144" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Cart/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cart/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cart/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Computed/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Computed/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Computed/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Computed/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TodoList" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TodoList/22.X.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TodoList/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/README.md" afterDir="false" />
@@ -24,13 +23,14 @@
     <session id="-1026182008">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.48" value="2" />
           <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.79" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -75,10 +75,7 @@
             <entry file="file://$PROJECT_DIR$/Cart/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="193">
-                  <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-                  <folding>
-                    <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
+                  <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
@@ -87,7 +84,7 @@
             <entry file="file://$PROJECT_DIR$/Cart/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="115">
-                  <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+                  <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -95,12 +92,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Cart/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="788">
-                  <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+                <state relative-caret-position="481">
+                  <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
                 </state>
               </provider>
             </entry>
@@ -154,9 +151,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="83" />
-    <option name="y" value="160" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1069" />
+    <option name="y" value="153" />
     <option name="width" value="1764" />
     <option name="height" value="992" />
   </component>
@@ -167,12 +164,27 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Vue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vue" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556090055899" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556090716532" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -210,18 +222,18 @@
       <workItem from="1556012894292" duration="10353000" />
       <workItem from="1556025345595" duration="570000" />
       <workItem from="1556027274745" duration="1694000" />
-      <workItem from="1556074240664" duration="10933000" />
+      <workItem from="1556074240664" duration="10997000" />
+      <workItem from="1556110216795" duration="594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54698000" />
+    <option name="totallyTimeSpent" value="55356000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="83" y="160" width="1764" height="992" extended-state="1" />
-    <editor active="true" />
+    <frame x="1069" y="153" width="1764" height="992" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23254281" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23532864" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -478,27 +490,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cart/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cart/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
-          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cart/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cart/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+        <state relative-caret-position="481">
+          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
         </state>
       </provider>
     </entry>
