@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>购物车</title>
+</head>
+<body>
+<div class="container" id="app">
+    <div class="row">
+        <div class="panel panel-default" v-if="!goods.length">
+            <div class="panel-heading">购物车空空如也~</div>
+        </div>
+        <div class="panel panel-default" v-show="goods.length">
+            <div class="panel-heading">
+                <h3 class="panel-title">购物车</h3>
+            </div>
+            <div class="panel-body">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>
+                                <input @click="selectAll" type='checkbox' v-model="allCheck">全选
+                            </th>
+                            <th>商品名称</th>
+                            <th>商品单价</th>
+                            <th>商品数量</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr v-for="(item, id) in goods">
+                            <td>
+                                <input type="checkbox" @click="check(id)" :checked="allCheck">
+                            </td>
+                            <td>{{item.name}}</td>
+                            <td>{{item.price}}</td>
+                            <td>
+                                <button @click="sub(id)">-</button>
+                                <input type="number" v-model="item.num">
+                                <button @click="add(id)">＋</button>
+                            </td>
+                            <td>
+                                <div class="btn-group btn-group-xs">
+                                    <button class="btn btn-danger" @click="remove(id)" type="button">删除</button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-footer" style="text-align: right">
+                共计 <strong>{{sum}}</strong>元
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../lib/js/vue.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
