@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01a5fa3b-0ef2-4a1c-aca2-8e8d52eb0144" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Vue-cli/demo1/src/components/Footer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue-cli/demo1/src/components/Header.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue-cli/demo1/src/components/Hello.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue-cli/demo1/src/components/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/Check.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/Menu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/Problem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/Signup.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/about/Contact.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/about/History.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/about/OrderGuide.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TodoList" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TodoList/22.X.iml" beforeDir="false" />
@@ -14,13 +21,6 @@
       <change beforePath="$PROJECT_DIR$/TodoList/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TodoList/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TodoList/js/myStorage.js" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/js/myStorage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue-cli/demo1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue-cli/demo1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue-cli/demo1/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vue-cli/demo1/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue-cli/demo1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vue-cli/demo1/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue-cli/demo1/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue-cli/demo1/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue-cli/demo1/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue-cli/demo1/src/components/HelloWorld.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue-cli/demo1/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue-cli/demo1/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue-cli/demo1/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue-cli/demo1/src/router/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,75 +32,89 @@
     <session id="-1026182008">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.48" value="2" />
           <entry key="project.open.time.51" value="1" />
-          <entry key="project.open.time.55" value="1" />
+          <entry key="project.open.time.55" value="2" />
+          <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.75" value="1" />
           <entry key="project.open.time.79" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="5" />
-          <entry key="html" value="19" />
-          <entry key="js" value="18" />
+          <entry key="html" value="20" />
+          <entry key="js" value="22" />
           <entry key="json" value="1" />
           <entry key="md" value="1" />
-          <entry key="vue" value="8" />
+          <entry key="vue" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="5" />
-          <entry key="HTML" value="19" />
+          <entry key="HTML" value="20" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="18" />
+          <entry key="JavaScript" value="22" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Vue.js" value="7" />
+          <entry key="Vue.js" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="867" />
-          <entry key="html" value="5234" />
-          <entry key="js" value="6912" />
+          <entry key="html" value="5239" />
+          <entry key="js" value="8199" />
           <entry key="md" value="44" />
-          <entry key="vue" value="2446" />
+          <entry key="vue" value="4729" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="867" />
-          <entry key="HTML" value="5281" />
-          <entry key="JavaScript" value="6865" />
+          <entry key="HTML" value="5286" />
+          <entry key="JavaScript" value="8152" />
           <entry key="Markdown" value="44" />
-          <entry key="Vue.js" value="2446" />
+          <entry key="Vue.js" value="4729" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue-cli/demo1/index.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/Home.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="23">
+              <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue-cli/demo1/src/main.js">
+        <entry file="file://$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/router/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            <state relative-caret-position="713">
+              <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#352#401#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-23">
+              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#140#161#0" expanded="true" />
@@ -110,70 +124,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue-cli/demo1/src/router/index.js">
+        <entry file="file://$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/Header.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="69">
+              <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue-cli/demo1/src/App.vue">
+        <entry file="file://$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/about/Contact.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-69">
-              <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Vue-cli/demo1/src/components/Home.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-              <folding>
-                <element signature="e#212#250#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="322">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue-cli/demo1/src/components/Hello.vue">
+        <entry file="file://$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/about/History.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            <state relative-caret-position="23">
+              <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue-cli/demo1/src/components/HelloWorld.vue">
+        <entry file="file://$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/about/OrderGuide.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="184">
+              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue-cli/demo1/src/components/Header.vue">
+        <entry file="file://$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/About.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            <state relative-caret-position="368">
+              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue-cli/demo1/src/components/Footer.vue">
+        <entry file="file://$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            <state relative-caret-position="138">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/Menu.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -186,9 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/V-for/main.js" />
-        <option value="$PROJECT_DIR$/lib/vue.js" />
-        <option value="$PROJECT_DIR$/V-for/index.html" />
         <option value="$PROJECT_DIR$/V-bind/index.html" />
         <option value="$PROJECT_DIR$/V-bind/main.js" />
         <option value="$PROJECT_DIR$/V-on/main.js" />
@@ -225,6 +230,21 @@
         <option value="$PROJECT_DIR$/Vue-cli/demo1/src/components/Hello.vue" />
         <option value="$PROJECT_DIR$/Vue-cli/demo1/src/components/HelloWorld.vue" />
         <option value="$PROJECT_DIR$/Vue-cli/demo1/src/components/Home.vue" />
+        <option value="$PROJECT_DIR$/Vue-cli/Demo2/meituan/index.html" />
+        <option value="$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/Check.vue" />
+        <option value="$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/Problem.vue" />
+        <option value="$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/Signup.vue" />
+        <option value="$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/Register.vue" />
+        <option value="$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/Header.vue" />
+        <option value="$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/about/OrderGuide.vue" />
+        <option value="$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/about/Contact.vue" />
+        <option value="$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/main.js" />
+        <option value="$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/About.vue" />
+        <option value="$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/router/index.js" />
+        <option value="$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/Menu.vue" />
+        <option value="$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/App.vue" />
+        <option value="$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/about/History.vue" />
+        <option value="$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/Home.vue" />
       </list>
     </option>
   </component>
@@ -235,18 +255,20 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/Vue-cli/demo1/node_modules" />
+    <handled-path value="$PROJECT_DIR$/Vue-cli/Demo1/node_modules" />
+    <handled-path value="$PROJECT_DIR$/Vue-cli/Demo2/meituan/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/Vue-cli/demo1/package.json" />
+      <path value="$PROJECT_DIR$/Vue-cli/Demo1/package.json" />
+      <path value="$PROJECT_DIR$/Vue-cli/Demo2/meituan/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-111" />
-    <option name="y" value="209" />
-    <option name="width" value="1764" />
-    <option name="height" value="991" />
+    <option name="x" value="150" />
+    <option name="y" value="218" />
+    <option name="width" value="1858" />
+    <option name="height" value="925" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -256,8 +278,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,20 +296,29 @@
               <item name="Vue" type="b2602c69:ProjectViewProjectNode" />
               <item name="Vue" type="462c0819:PsiDirectoryNode" />
               <item name="Vue-cli" type="462c0819:PsiDirectoryNode" />
-              <item name="demo1" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Vue" type="b2602c69:ProjectViewProjectNode" />
               <item name="Vue" type="462c0819:PsiDirectoryNode" />
               <item name="Vue-cli" type="462c0819:PsiDirectoryNode" />
-              <item name="demo1" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo2" type="462c0819:PsiDirectoryNode" />
+              <item name="meituan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vue" type="462c0819:PsiDirectoryNode" />
+              <item name="Vue-cli" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo2" type="462c0819:PsiDirectoryNode" />
+              <item name="meituan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Vue" type="b2602c69:ProjectViewProjectNode" />
               <item name="Vue" type="462c0819:PsiDirectoryNode" />
               <item name="Vue-cli" type="462c0819:PsiDirectoryNode" />
-              <item name="demo1" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo2" type="462c0819:PsiDirectoryNode" />
+              <item name="meituan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -295,7 +326,18 @@
               <item name="Vue" type="b2602c69:ProjectViewProjectNode" />
               <item name="Vue" type="462c0819:PsiDirectoryNode" />
               <item name="Vue-cli" type="462c0819:PsiDirectoryNode" />
-              <item name="demo1" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo2" type="462c0819:PsiDirectoryNode" />
+              <item name="meituan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="about" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vue" type="462c0819:PsiDirectoryNode" />
+              <item name="Vue-cli" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo2" type="462c0819:PsiDirectoryNode" />
+              <item name="meituan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="router" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -303,13 +345,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556201406238" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556287293959" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -351,16 +393,19 @@
       <workItem from="1556110216795" duration="3192000" />
       <workItem from="1556156175835" duration="546000" />
       <workItem from="1556156843461" duration="15948000" />
+      <workItem from="1556201854937" duration="69000" />
+      <workItem from="1556248141710" duration="18318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74448000" />
+    <option name="totallyTimeSpent" value="92835000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-111" y="209" width="1764" height="991" extended-state="0" />
+    <frame x="150" y="218" width="1858" height="925" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14906104" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14460512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -375,7 +420,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32905483" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.35651076" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -425,41 +470,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/js/vue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1589">
-          <caret line="11911" column="4" selection-start-line="11911" selection-start-column="4" selection-end-line="11911" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/V-for/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/V-for/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/V-bind/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/V-on/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/V-model/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -638,35 +648,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vue-cli/demo1/package.json">
+    <entry file="file://$PROJECT_DIR$/Vue-cli/Demo1/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-49" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vue-cli/demo1/src/components/Footer.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue-cli/demo1/index.html">
+    <entry file="file://$PROJECT_DIR$/Vue-cli/Demo1/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vue-cli/demo1/src/components/Header.vue">
+    <entry file="file://$PROJECT_DIR$/Vue-cli/Demo1/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue-cli/demo1/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
+        <state relative-caret-position="207">
           <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -675,16 +671,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vue-cli/demo1/src/App.vue">
+    <entry file="file://$PROJECT_DIR$/Vue-cli/Demo1/src/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue-cli/demo1/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
+        <state relative-caret-position="299">
           <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
@@ -692,27 +681,165 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vue-cli/demo1/src/components/HelloWorld.vue">
+    <entry file="file://$PROJECT_DIR$/Vue-cli/Demo1/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="69">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vue-cli/demo1/src/components/Hello.vue">
+    <entry file="file://$PROJECT_DIR$/Vue-cli/Demo1/src/components/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue-cli/Demo1/src/components/Hello.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vue-cli/demo1/src/components/Home.vue">
+    <entry file="file://$PROJECT_DIR$/Vue-cli/Demo1/src/components/HelloWorld.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+        <state relative-caret-position="368">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue-cli/Demo1/src/components/Header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue-cli/Demo1/src/components/Footer.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue-cli/Demo2/meituan/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/Problem.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/HelloWorld.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1771">
+          <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/Check.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/Register.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/Signup.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/Header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding>
-            <element signature="e#212#250#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#140#161#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/about/OrderGuide.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/about/History.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/about/Contact.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/About.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#352#401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/Menu.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue-cli/Demo2/meituan/src/components/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
