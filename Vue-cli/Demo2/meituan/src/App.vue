@@ -1,12 +1,13 @@
 <template>
-  <div id="app" class="container">
+  <div id="app">
     <div class="header">
       <app-header></app-header>
     </div>
     <div class="content">
       <router-view/>
     </div>
-    <div class="row">
+    <!--二级路由复用-->
+    <!--<div class="row">
       <div class="col-md-4 col-sm-12">
         <router-view name="contact"></router-view>
       </div>
@@ -16,7 +17,7 @@
       <div class="col-md-4 col-sm-12">
         <router-view name="orderGuide"></router-view>
       </div>
-    </div>
+    </div>-->
   </div>
 </template>
 

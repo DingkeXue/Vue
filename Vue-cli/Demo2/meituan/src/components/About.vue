@@ -48,12 +48,12 @@
 
 <style>
   .list-group-item {
-    margin: 20px;
     text-align: center;
     padding: 20px 0;
   }
 
-  .panel {
+  .col-md-8,
+  .list-group-item {
     margin-top: 20px;
   }
 </style>

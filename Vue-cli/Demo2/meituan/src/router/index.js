@@ -75,9 +75,6 @@ export default new Router({
       name: 'MenuLink',
       components: {
         default: Menu,
-        'contact': Contact,
-        'history': History,
-        'orderGuide': OrderGuide
       }
     },
     {
