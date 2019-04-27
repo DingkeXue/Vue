@@ -1,6 +1,7 @@
 # meituan
 
 > 美团首页
+> Vue 美团外卖，涉及到的技术有 Bootstrap, vue-cli, vue-router, vue-resource, fetch, axios, filter, Hook 等 
 
 ## Build Setup
 
