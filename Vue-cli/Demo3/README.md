@@ -1,5 +1,7 @@
 # cross
 
+Vue 博客网页制作，涉及到的技术有 Bootstrap, vue-cli, vue-router, vue-resource, fetch, axios, filter, Hook 等 
+
 > 跨域请求
 
 ## Build Setup
