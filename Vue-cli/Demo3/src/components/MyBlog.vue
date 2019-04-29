@@ -9,7 +9,7 @@
       <div v-for="blog in filterBlogs" class="single-blog">
         <router-link :to="'/blog/' + blog.id">
           <h2 v-changeColor>{{blog.title}}</h2>
-          <p>{{blog.body | subContent}}</p>
+          <p>{{blog.text | subContent}}</p>
         </router-link>
       </div>
     </div>
@@ -17,6 +17,7 @@
 </template>
 
 <script>
+  import axios from 'axios'
   export default {
     name: 'myBlog',
     data () {
@@ -26,8 +27,15 @@
       }
     },
     created() {
-      this.$http.get('http://jsonplaceholder.typicode.com/posts').then(response => {
-        this.blogs = response.body.slice(0, 10);
+      axios.get('https://vue-blog-53cfe.firebaseio.com/posts/' + this.id + '.json').then(response => {
+        return response.json();
+      }).then(data => {
+        let blogArray = [];
+        for (let key in data) {
+          data[key].id = key;
+          blogArray.push(data[key]);
+        }
+        this.blogs = blogArray;
       })
     },
     computed: {

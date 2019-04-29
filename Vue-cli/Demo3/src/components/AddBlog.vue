@@ -59,6 +59,7 @@
 </template>
 
 <script>
+  import axios from 'axios'
   export default {
     name: 'addBlog',
     data () {
@@ -75,13 +76,7 @@
     },
     methods: {
       post() {
-        this.$http.post('http://jsonplaceholder.typicode.com/posts', {
-          title: this.Blog.title,
-          content: this.Blog.text,
-          id: 1,
-          author: this.Blog.author
-        }).then((response) => {
-          console.log(response);
+        axios.post('https://vue-blog-53cfe.firebaseio.com/posts.json', this.Blog).then((response) => {
           this.Blog.submitted = true;
         })
       }
@@ -91,8 +86,9 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1 {
-  text-align: center;
+
+  h1 {
+    text-align: center;
 }
 
   .form-group {
@@ -111,6 +107,5 @@ h1 {
     width: 100%;
     padding: 10px;
   }
-
 
 </style>
