@@ -7,8 +7,10 @@
         <button class="btn btn-primary">搜索</button>
       </div>
       <div v-for="blog in filterBlogs" class="single-blog">
-        <h2 v-changeColor>{{blog.title}}</h2>
-        <p>{{blog.body | subContent}}</p>
+        <router-link :to="'/blog/' + blog.id">
+          <h2 v-changeColor>{{blog.title}}</h2>
+          <p>{{blog.body | subContent}}</p>
+        </router-link>
       </div>
     </div>
   </div>
@@ -75,4 +77,22 @@
   button {
     padding: 12px 30px;
   }
+
+  a {
+    text-decoration: none;
+  }
+
+  h2 {
+    -webkit-transition: margin-left 1s;
+    -moz-transition: margin-left 1s;
+    -ms-transition: margin-left 1s;
+    -o-transition: margin-left 1s;
+    transition: margin-left 1s;
+    margin-bottom: 20px;
+  }
+
+  h2:hover {
+    margin-left: 30px;
+  }
+
 </style>

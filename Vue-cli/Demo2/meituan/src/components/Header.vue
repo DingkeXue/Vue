@@ -10,7 +10,7 @@
           <li><router-link class="nav-link" to="check">资费查询</router-link></li>
           <li><router-link class="nav-link" to="problem">常见问题</router-link></li>
         </ul>
-        <ul class="nav navbar-nav pull-right">
+        <ul class="nav navbar-nav navbar-right">
           <li><router-link class="nav-link" to="signup">登录</router-link></li>
           <li><router-link class="nav-link" to="register">注册</router-link></li>
         </ul>

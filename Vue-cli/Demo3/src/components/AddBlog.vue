@@ -35,24 +35,24 @@
         </form>
       </div>
     </div>
-    <div class="preview" v-if="!Blog.submitted">
-      <h1>博客预览</h1>
-      <div class="title form-group">
-        <label>标题</label>
-        <p>{{this.Blog.title}}</p>
-      </div>
-      <div class="text form-group">
-        <label>内容</label>
-        <p>{{this.Blog.text}}</p>
-      </div>
-      <div class="category form-group">
-        <label>文章分类</label>
-        <ul class="category">
-          <li v-for="category in Blog.categories">{{category}}</li>
-        </ul>
-      </div>
-    </div>
     <div class="published form-group"  v-if="Blog.submitted">
+      <div class="preview" v-if="Blog.submitted">
+        <h1>博客预览</h1>
+        <div class="title form-group">
+          <label>标题</label>
+          <p>{{this.Blog.title}}</p>
+        </div>
+        <div class="text form-group">
+          <label>内容</label>
+          <p>{{this.Blog.text}}</p>
+        </div>
+        <div class="category form-group">
+          <label>文章分类</label>
+          <ul class="category">
+            <li v-for="category in Blog.categories">{{category}}</li>
+          </ul>
+        </div>
+      </div>
       <h1>文章已发布</h1>
     </div>
   </div>
