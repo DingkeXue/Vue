@@ -27,8 +27,8 @@
       }
     },
     created() {
-      axios.get('https://vue-blog-53cfe.firebaseio.com/posts/' + this.id + '.json').then(response => {
-        return response.json();
+      axios.get('https://vue-blog-53cfe.firebaseio.com/posts.json').then( (data) => {
+        return data.json();
       }).then(data => {
         let blogArray = [];
         for (let key in data) {
