@@ -28,8 +28,8 @@
       }
     },
     created() {
-      axios.get('https://vue-blog-53cfe.firebaseio.com/posts/' + this.id + '.json').then(data => {
-        this.content = data.json();
+      axios.get('https://vue-blog-53cfe.firebaseio.com/posts/' + this.id + '.json').then(response => {
+        this.content = response.data;
       })
     }
   }

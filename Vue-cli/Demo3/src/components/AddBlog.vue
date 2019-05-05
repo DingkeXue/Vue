@@ -54,6 +54,7 @@
         </div>
       </div>
       <h1>文章已发布</h1>
+      <router-link to="/">回到首页</router-link>
     </div>
   </div>
 </template>

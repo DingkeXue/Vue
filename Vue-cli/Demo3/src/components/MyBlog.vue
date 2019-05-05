@@ -27,8 +27,8 @@
       }
     },
     created() {
-      axios.get('https://vue-blog-53cfe.firebaseio.com/posts.json').then( (data) => {
-        return data.json();
+      axios.get('https://vue-blog-53cfe.firebaseio.com/posts.json').then( (response) => {
+        return response.data;
       }).then(data => {
         let blogArray = [];
         for (let key in data) {
@@ -36,6 +36,8 @@
           blogArray.push(data[key]);
         }
         this.blogs = blogArray;
+      }).catch(error => {
+        console.log(error);
       })
     },
     computed: {
